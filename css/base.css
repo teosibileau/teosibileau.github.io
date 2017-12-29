@@ -1,0 +1,45 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    background-color: rgb(48, 145, 106);
+}
+
+a, a:active, a:visited{
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+a:hover{
+    color: rgb(86, 156, 128);
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.row.top {
+    margin-top:80px;
+}
+
+h1 {
+    font-size: 100px;
+}
+h2 {
+    font-size:50px;
+}
+
+h1,h2{
+    font-weight: bold;
+    color: white;
+   -webkit-text-fill-color: rgb(48, 145, 106);
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: white;
+}
