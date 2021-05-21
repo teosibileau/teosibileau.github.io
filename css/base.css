@@ -1,0 +1,83 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.heading{
+    background:linear-gradient(20deg,#11998e, #38ef7d);
+    width:100%;
+    color: white;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    margin-top:20px;
+    text-align: center;
+}
+
+.heading.top {
+    margin-top:0px;
+}
+
+.top .row{
+    margin-top:20px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.heading h2 {
+    font-size:50px;
+    /*text-align: center;*/
+    margin-top:50px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.heading h2 small {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: transparent;
+}
+
+a, a:active, a:visited{
+   color: #11998e;
+}
+
+h1, h3, h4{
+    color: #11998e;
+}
+
+.date {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.responsibilities{
+    font-size: 80%;
+}
+
+.description {
+    font-style: italic;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+small {
+    font-size:75%;
+}
+
+.inverse i {
+    color: #11998e;
+}
+
+.content {
+    padding-top:50px;
+    padding-bottom: 50px;
+}
