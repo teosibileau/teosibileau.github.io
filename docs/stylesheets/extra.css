@@ -1,0 +1,12 @@
+.fifty{
+    width: 47%;
+    float: left;
+}
+
+.last{
+    margin-left:3%;
+}
+
+.clearboth{
+    clear: both;
+}
