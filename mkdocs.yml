@@ -2,6 +2,7 @@ site_name: Teo Sibileau
 theme:
   name: material
   favicon: img/favicon.ico
+plugins: []
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:

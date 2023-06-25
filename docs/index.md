@@ -1,25 +1,34 @@
 ---
 hide:
   - navigation
+  - toc
 ---
 
 # Hi!
 
-![Teo](./img/teo.jpeg)
+<figure markdown>
+  ![Teo](./img/teo.jpeg){ align=left}
+  <figcaption>That is me on Time Square</figcaption>
+</figure>
 
 ## Who am I?
 
+My name is Teo Sibileau. This is my [:simple-linkedin: Linkedin](https://www.linkedin.com/in/te%C3%B3filo-sibileau-18800058/).
+
 I'm a python developer with almost 20 years of experience. I've worked on a wide range of projects, from small websites to large scale data processing pipelines.
 
-I'm based near El Bolsón, Río Negro, deep within the Argentinian Andes. I live with my wife and 8 year old. Not willing to relocate, only interested in remote positions. **Here's why:** 
+I'm based near El Bolsón, Río Negro, deep within the Argentinian Andes. I live with my wife and 8 year old.
 
-<img src="./img/golondrinas.jpg" alt="Golondrinas" />
+<figure markdown>
+![Teo](./img/golondrinas.jpg){ align=left}
+<figcaption>Here's a drone pic right above my house</figcaption>
+</figure>
 
-My life is split between my family, my work and a many other interests among which: **training and playing rugby, building infrastructure for my farm & everything about the guitar**
+My life is split between my family, my work and a many other interests among which: **training and playing rugby, building infrastructure for my farm & everything about the guitar**. I document a lot of this on [:simple-instagram: Instagram](https://www.instagram.com/teosibileau/).
 
-## Code 
+## Code that I can show
 
-I mainly use [:borrowed-gitlab: Gitlab](https://gitlab.com/users/teosibileau/projects) now, but i have a few projects on [:borrowed-github: Github](https://github.com/teosibileau). Here's a selection:
+I prefer to use [:borrowed-gitlab: Gitlab](https://gitlab.com/users/teosibileau/projects) now, but i have a few projects on [:borrowed-github: Github](https://github.com/teosibileau). Here's a selection:
 
 
 | Selected Project | Description |
@@ -46,17 +55,18 @@ Full time remote position at Satellogic, a leading provider of high-resolution s
 + Implementing monitoring and alert solutions
 + Moving the entire platform from Azure Cloud to AWS.
 
-**Skills** [:fontawesome-brands-python:](https://www.python.org/ "Python")
-[:borrowed-django:](https://www.djangoproject.com/ "Django")
-[:borrowed-celery:](https://docs.celeryproject.org/ "Celery")
-[:borrowed-redis:](https://redis.io/ "Redis")
-[:borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
-[:borrowed-rabbitmq:](https://www.rabbitmq.com/ "Rabbitmq")
-[:borrowed-docker:](https://www.docker.com/ "Docker")
-[:borrowed-kubernetes:](https://kubernetes.io/ "Kubernetes")
-[:borrowed-helm:](https://helm.sh/ "Helm")
-[:borrowed-microsoftazure:](https://azure.microsoft.com/en-us/ "Azure cloud")
-[:fontawesome-brands-amazon:](https://aws.amazon.com/ "AWS")
+
+**Tools:** [Python :fontawesome-brands-python:](https://www.python.org/ "Python")
+[Django :borrowed-django:](https://www.djangoproject.com/ "Django")
+[Celery :borrowed-celery:](https://docs.celeryproject.org/ "Celery")
+[Redis :borrowed-redis:](https://redis.io/ "Redis")
+[PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
+[RabbitMQ :borrowed-rabbitmq:](https://www.rabbitmq.com/ "Rabbitmq")
+[Docker :borrowed-docker:](https://www.docker.com/ "Docker")
+[Kubernetes :borrowed-kubernetes:](https://kubernetes.io/ "Kubernetes")
+[Helm :borrowed-helm:](https://helm.sh/ "Helm")
+[Azure :borrowed-microsoftazure:](https://azure.microsoft.com/en-us/ "Azure cloud")
+[AWS :fontawesome-brands-amazon:](https://aws.amazon.com/ "AWS")
 
 ### [Infoxel (Now Seenka)](https://seenka.com) <small>February 2018 - October 2018</small> 
 
@@ -70,12 +80,12 @@ Welo is a platform that combines a powerful video editor with a model of distrib
 + Refactoring clip delivery to acomodate volatility of demand during the 2018 Soccer World Cup
 + Refactoring the company's monolithic video processing pipeline into a series of microservices communicating through google cloud pubsub to help with dynamic scaling based on specific real time needs
 
-**Skills** [:fontawesome-brands-python:](https://www.python.org/ "Python")
-[:borrowed-django:](https://www.djangoproject.com/ "Django")
-[:borrowed-celery:](https://docs.celeryproject.org/ "Celery")
-[:borrowed-redis:](https://redis.io/ "Redis")
-[:borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
-[:borrowed-googlecloud:](https://cloud.google.com/ "Google Cloud")
+**Tools:** [Python :fontawesome-brands-python:](https://www.python.org/ "Python")
+[Django :borrowed-django:](https://www.djangoproject.com/ "Django")
+[Celery :borrowed-celery:](https://docs.celeryproject.org/ "Celery")
+[Redis :borrowed-redis:](https://redis.io/ "Redis")
+[PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
+[Google Cloud :borrowed-googlecloud:](https://cloud.google.com/ "Google Cloud")
 
 #### [Vlic (Now Seenka Social Listening)](https://seenka.com/social-listening)
 
@@ -87,14 +97,14 @@ Vlic is a mobile platform that allows users to “follow” Brands or People lik
 + Deployment of an instance of Nameko InfluxDB Microservice to provide a unified way of reporting metrics across the platform
 + Deployment and monitoring of Scrapy spiders
 
-**Skills** [:fontawesome-brands-python:](https://www.python.org/ "Python")
-[:borrowed-django:](https://www.djangoproject.com/ "Django")
-[:borrowed-celery:](https://docs.celeryproject.org/ "Celery")
-[:fontawesome-brands-python:](https://scrapy.org/ "Scrapy")
-[:borrowed-redis:](https://redis.io/ "Redis")
-[:borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
-[:borrowed-googlecloud:](https://cloud.google.com/ "Google Cloud")
-[:borrowed-docker:](https://www.docker.com/ "Docker")
+**Tools:** [Python :fontawesome-brands-python:](https://www.python.org/ "Python")
+[Django :borrowed-django:](https://www.djangoproject.com/ "Django")
+[Celery :borrowed-celery:](https://docs.celeryproject.org/ "Celery")
+[Scrapy :fontawesome-brands-python:](https://scrapy.org/ "Scrapy")
+[Redis :borrowed-redis:](https://redis.io/ "Redis")
+[PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
+[Google Cloud :borrowed-googlecloud:](https://cloud.google.com/ "Google Cloud")
+[Docker :borrowed-docker:](https://www.docker.com/ "Docker")
 
 ### [DKS-ARG](https://dks-arg.com/) <small>Feb 2017 - Dec 2017</small> 
 
@@ -106,12 +116,12 @@ Contractor work for DKS, an ARG based company that provides digital marketing so
 + Custom metrics reporting using Grafana + InfluxDB
 + Traffic Analizing Bots development using Celery and dynamically scaling using docker containers to detect non-working redirections and optimize CPA
 
-**Skills** [:fontawesome-brands-python:](https://www.python.org/ "Python")
-[:borrowed-django:](https://www.djangoproject.com/ "Django")
-[:borrowed-celery:](https://docs.celeryproject.org/ "Celery")
-[:borrowed-redis:](https://redis.io/ "Redis")
-[:borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
-[:borrowed-heroku:](https://www.postgresql.org/ "Heroku")
+**Tools:** [Python :fontawesome-brands-python:](https://www.python.org/ "Python")
+[Django :borrowed-django:](https://www.djangoproject.com/ "Django")
+[Celery :borrowed-celery:](https://docs.celeryproject.org/ "Celery")
+[Redis :borrowed-redis:](https://redis.io/ "Redis")
+[PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
+[Heroku :borrowed-heroku:](https://www.postgresql.org/ "Heroku")
 
 ### [NuCivic](http://nucivic.com/) <small>Nov 2013 - May 2017</small>
 
@@ -125,11 +135,11 @@ Full time remote position at NuCivil LLC, a US based company that provides open 
 + Javascript development
 + Python Client development for DKAN's API
 
-**Skills** [:borrowed-drupal:](https://www.drupal.org/ "Drupal")
-[:borrowed-mysql:](https://www.mysql.com/ "MySQL")
-[:borrowed-js:](https://developer.mozilla.org/en-US/docs/Web/JavaScript "JavaScript")
-[:borrowed-acquia:](https://www.acquia.com/ "Acquia")
-[:fontawesome-brands-python:](https://www.python.org/ "Python")
+**Tools:** [Drupal :borrowed-drupal:](https://www.drupal.org/ "Drupal")
+[MySQL :borrowed-mysql:](https://www.mysql.com/ "MySQL")
+[Javascript :borrowed-js:](https://developer.mozilla.org/en-US/docs/Web/JavaScript "JavaScript")
+[Acquia :borrowed-acquia:](https://www.acquia.com/ "Acquia")
+[Python :fontawesome-brands-python:](https://www.python.org/ "Python")
 
 ### [Buenos Aires City Goverment](https://buenosaires.gob.ar) <small>Feb 2011 - Nov 2013</small>
 
@@ -143,14 +153,14 @@ Full time remote position at Buenos Aires City Ministry of Modernization
 + Design the architecture and developed the first functional draft of Buenos Aires OpenID SSO as a django + mongodb app integrating countless internal goverment SOAP services to provide a single point of access for citizen goverment data
 + Worked closely with the in-house IT department to design deployment processes that work with ease and align with their security standards
 
-**Skills** [:borrowed-drupal:](https://www.drupal.org/ "Drupal")
-[:borrowed-mysql:](https://www.mysql.com/ "MySQL")
-[:borrowed-js:](https://developer.mozilla.org/en-US/docs/Web/JavaScript "JavaScript")
-[:fontawesome-brands-python:](https://www.python.org/ "Python")
-[:borrowed-django:](https://www.djangoproject.com/ "Django")
-[:borrowed-celery:](https://docs.celeryproject.org/ "Celery")
-[:borrowed-redis:](https://redis.io/ "Redis")
-[:borrowed-mongodb:](https://www.mongodb.com/ "MongoDB")
+**Tools:** [Drupal :borrowed-drupal:](https://www.drupal.org/ "Drupal")
+[MySQL :borrowed-mysql:](https://www.mysql.com/ "MySQL")
+[Javascript :borrowed-js:](https://developer.mozilla.org/en-US/docs/Web/JavaScript "JavaScript")
+[Python :fontawesome-brands-python:](https://www.python.org/ "Python")
+[Django :borrowed-django:](https://www.djangoproject.com/ "Django")
+[Celery :borrowed-celery:](https://docs.celeryproject.org/ "Celery")
+[Redis :borrowed-redis:](https://redis.io/ "Redis")
+[MongoDB :borrowed-mongodb:](https://www.mongodb.com/ "MongoDB")
 
 ### [SibileauLang]() <small>2003 - Feb 2011</small>
 
@@ -161,7 +171,7 @@ Founded, managed and closed a 2 person web design studio
 + Development of full actionscript websites
 + Back side integration with django models using easymode
 
-**Skills** [:borrowed-as:](https://apache.github.io/royale-docs/features/as3 "ActionScript")
-[:borrowed-mysql:](https://www.mysql.com/ "MySQL")
-[:fontawesome-brands-python:](https://www.python.org/ "Python")
-[:borrowed-django:](https://www.djangoproject.com/ "Django")
+**Tools:** [ActionScript :borrowed-as:](https://apache.github.io/royale-docs/features/as3 "ActionScript")
+[MySQL :borrowed-mysql:](https://www.mysql.com/ "MySQL")
+[Python :fontawesome-brands-python:](https://www.python.org/ "Python")
+[Django :borrowed-django:](https://www.djangoproject.com/ "Django")
