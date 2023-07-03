@@ -62,6 +62,7 @@ Full time remote position at Satellogic, a leading provider of high-resolution s
 [Redis :borrowed-redis:](https://redis.io/ "Redis")
 [PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
 [RabbitMQ :borrowed-rabbitmq:](https://www.rabbitmq.com/ "Rabbitmq")
+[ElasticSearch :borrowed-elastic:](https://www.elastic.co/ "ElasticSearch")
 [Docker :borrowed-docker:](https://www.docker.com/ "Docker")
 [Kubernetes :borrowed-kubernetes:](https://kubernetes.io/ "Kubernetes")
 [Helm :borrowed-helm:](https://helm.sh/ "Helm")
@@ -78,12 +79,13 @@ Welo is a platform that combines a powerful video editor with a model of distrib
 
 + Django development
 + Refactoring clip delivery to acomodate volatility of demand during the 2018 Soccer World Cup
-+ Refactoring the company's monolithic video processing pipeline into a series of microservices communicating through google cloud pubsub to help with dynamic scaling based on specific real time needs
++ Refactoring the company's monolithic video processing pipeline into a series of microservices communicating through google cloud pubsub and sharing data through ElasticSearch indices to help with dynamic scaling based on specific real time needs
 
 **Tools:** [Python :fontawesome-brands-python:](https://www.python.org/ "Python")
 [Django :borrowed-django:](https://www.djangoproject.com/ "Django")
 [Celery :borrowed-celery:](https://docs.celeryproject.org/ "Celery")
 [Redis :borrowed-redis:](https://redis.io/ "Redis")
+[ElasticSearch :borrowed-elastic:](https://www.elastic.co/ "ElasticSearch")
 [PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
 [Google Cloud :borrowed-googlecloud:](https://cloud.google.com/ "Google Cloud")
 
