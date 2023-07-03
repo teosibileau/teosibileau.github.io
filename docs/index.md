@@ -51,7 +51,8 @@ Full time remote position at Satellogic, a leading provider of high-resolution s
 #### Responsibilities
 
 + Django development
-+ Designing strategies to speed up plan runs  
++ Designing strategies to speed up plan runs
++ Creating intra company ElasticSearch indices to help with data analysis
 + Implementing monitoring and alert solutions
 + Moving the entire platform from Azure Cloud to AWS.
 
