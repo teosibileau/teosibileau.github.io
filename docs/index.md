@@ -33,7 +33,7 @@ I prefer to use [:borrowed-gitlab: Gitlab](https://gitlab.com/users/teosibileau/
 
 | Selected Project | Description |
 |--|--|
-| [bosminer-py](https://gitlab.com/slkmining/bosminer-py) | Python client to retrieve data from any miner running Braiins OS+ Socket API. |
+| [bosminer-py](https://gitlab.com/slkmining/bosminer-py) | Python client to retrieve data from any miner running Braiins OS+ using GRPC or Socket API. |
 | [antminer-py](https://gitlab.com/slkmining/antminer-py) | Python client to retrieve data from AntMiners stock firmware (reverse engineered) REST API. |
 | [media-watchdog](https://gitlab.com/teosibileau/media-watchdog) | Screen a path for updates and publish changes to rabbitmq |
 | [Nameko InfluxDB metrics](https://gitlab.com/teosibileau/nameko.influxdb.metrics) | A nameko microservice to write/read to/from influxdb (inspired by Grafana query builder). |
