@@ -44,7 +44,27 @@ I prefer to use [:borrowed-gitlab: Gitlab](https://gitlab.com/users/teosibileau/
 
 ## Experience
 
-### [Satellogic](https://satellogic.com/) <small>Feb 2019 - Present</small>
+### [Sonder](https://sonder.com/) <small>Aug 2023 - Present</small>
+
+Contractor work through [Ryz Labs](https://ryzlabs.com/) at Sonder, a hospitality company that offers spaces for short term stays, manages over 9,000 units in over 40 cities in 10 countries and has served over 1 million guests.
+
+#### Responsibilities
+
++ Flask development for the company's revenue management systems/webservices
++ Designing and implementing strategies for data migrations
+
+**Tools:** [Python :fontawesome-brands-python:](https://www.python.org/ "Python")
+[Flask :borrowed-flask:](https://flask.palletsprojects.com/ "Flask")
+[Celery :borrowed-celery:](https://docs.celeryproject.org/ "Celery")
+[Redis :borrowed-redis:](https://redis.io/ "Redis")
+[PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
+[MySQL :borrowed-mysql:](https://www.mysql.com/ "MySQL")
+[Docker :borrowed-docker:](https://www.docker.com/ "Docker")
+[Kubernetes :borrowed-kubernetes:](https://kubernetes.io/ "Kubernetes")
+[Helm :borrowed-helm:](https://helm.sh/ "Helm")
+[AWS :fontawesome-brands-amazon:](https://aws.amazon.com/ "AWS")
+
+### [Satellogic](https://satellogic.com/) <small>Feb 2019 - Apr 2023</small>
 
 Full time remote position at Satellogic, a leading provider of high-resolution satellite imagery to governments and commercial customers worldwide.
 
@@ -52,7 +72,7 @@ Full time remote position at Satellogic, a leading provider of high-resolution s
 
 + Django development
 + Designing strategies to speed up plan runs
-+ Creating intra company ElasticSearch indices to help with data analysis
++ Creating intra company ElasticSearch indices to support data analysis
 + Implementing monitoring and alert solutions
 + Moving the entire platform from Azure Cloud to AWS.
 
