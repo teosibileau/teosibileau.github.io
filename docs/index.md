@@ -33,6 +33,7 @@ I prefer to use [:borrowed-gitlab: Gitlab](https://gitlab.com/users/teosibileau/
 
 | Selected Project | Description |
 |--|--|
+| [hiluxscraper](https://gitlab.com/teosibileau/hiluxscraper) | Scrapy project that helps you find a good deal for a pre 2005 Hilux SR5 on MercadoLibre |
 | [bosminer-py](https://gitlab.com/slkmining/bosminer-py) | Python client to retrieve data from any miner running Braiins OS+ using GRPC or Socket API. |
 | [antminer-py](https://gitlab.com/slkmining/antminer-py) | Python client to retrieve data from AntMiners stock firmware (reverse engineered) REST API. |
 | [media-watchdog](https://gitlab.com/teosibileau/media-watchdog) | Screen a path for updates and publish changes to rabbitmq |
