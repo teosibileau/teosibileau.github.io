@@ -147,7 +147,7 @@ Contractor work for DKS, an ARG based company that provides digital marketing so
 [PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
 [Heroku :borrowed-heroku:](https://www.postgresql.org/ "Heroku")
 
-### [NuCivic](http://nucivic.com/) <small>Nov 2013 - May 2017</small>
+### [NuCivic](https://github.com/GetDKAN/dkan) <small>Nov 2013 - May 2017</small>
 
 Full time remote position at NuCivil LLC, a US based company that provides open data solutions for goverment agencies.
 
