@@ -7,11 +7,12 @@ readme = "README.md"
 packages = [{include = "teosibileau"}]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 mkdocs = "^1.4.3"
 mkdocs-material = "^9.1.15"
 pymdown-extensions = "^10.0.1"
 pyyaml = "^6.0.1"
+mkdocs-macros-plugin = "^1.0.5"
 
 
 [build-system]
