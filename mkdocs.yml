@@ -1,7 +1,14 @@
 site_name: Teo Sibileau
 theme:
   name: material
-plugins: []
+plugins:
+  - search
+  - macros:
+      include_dir: partials
+  - encryptcontent:
+        password_inventory:
+          secret:
+            teo: 'secret'
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
@@ -12,8 +19,8 @@ markdown_extensions:
   - toc:
       permalink: True
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - overrides/icons

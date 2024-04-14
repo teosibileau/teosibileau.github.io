@@ -13,6 +13,7 @@ mkdocs-material = "^9.1.15"
 pymdown-extensions = "^10.0.1"
 pyyaml = "^6.0.1"
 mkdocs-macros-plugin = "^1.0.5"
+mkdocs-encryptcontent-plugin = "^3.0.3"
 
 
 [build-system]
