@@ -10,3 +10,15 @@
 .clearboth{
     clear: both;
 }
+
+p small {
+    font-size: 90%
+}
+
+small a {
+    padding-right: 10px;
+}
+
+.md-header, .md-footer{
+    display: none;
+}
