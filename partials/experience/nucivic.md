@@ -1,10 +1,6 @@
 ### [NuCivic](https://github.com/GetDKAN/dkan) <small>Nov 2013 - May 2017</small>
 
-Full time remote position at NuCivil LLC, a US based company that provides open data solutions for goverment agencies.
-
-#### Responsibilities
-
-Product Development on DKAN, NuCivic's open data catalog build with drupal
+Contributed to product development on DKAN, an open-source open data platform built on Drupal, originally developed by NuCivic and now maintained by CivicActions. Worked on enhancing data publishing workflows, improving catalog performance, and refining user experience to help government and civic organizations make public datasets accessible, discoverable, and reusable.
 
 <small>
 [Drupal :borrowed-drupal:](https://www.drupal.org/ "Drupal")

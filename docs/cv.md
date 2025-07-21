@@ -21,7 +21,9 @@ h1 small {
 
 
 ![Teofilo Sibileau](/img/cv.jpg){ width="200" }
-# Teofilo Sibileau <small>Python dev</small>
+# Teofilo Sibileau <small>Python Backend Developer</small>
+
+I'm a python developer with almost 20 years of experience architecting and scaling backend systems, particularly with Django and PostgreSQL. Proven track record across domains like satellite tasking, media platforms, and large-scale infrastructure migrations.
 
 <div class="grid cards" markdown>
 -   [:material-email: __teo.sibileau@gmail.com__](mailto:teo.sibileau@gmail.com)
@@ -29,6 +31,7 @@ h1 small {
 -   [:borrowed-github: __Github__](https://github.com/teosibileau)
 </div>
 
+{% include 'experience/ine.md' %}
 {% include 'experience/sonder.md' %}
 {% include 'experience/satellogic.md' %}
 {% include 'experience/infoxel.md' %}

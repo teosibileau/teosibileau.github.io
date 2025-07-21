@@ -1,13 +1,8 @@
 ### [DKS-ARG](https://dks-arg.com/) <small>Feb 2017 - Dec 2017</small> 
 
-Contractor work for DKS, an ARG based company that provides digital marketing solutions for the LATAM market.
+Worked as a contractor for DKS, an Argentina-based company providing digital marketing solutions across the LATAM market. My role focused on both development and operations, supporting key systems that powered their ad tracking and subscription infrastructure.
 
-#### Responsibilities
-
-+ Development and Operations of click tracking service w/ Django
-+ Development and Operations of subscription management service w/ Django
-+ Development of dynamically scaled traffic analizer Bots using Celery
-+ Custom reporting using [Grafana](https://grafana.com/) + [InfluxDB](https://influxdata.com/)
+Built and maintained a high-traffic click tracking service and a subscription management platform using Django. Implemented dynamically scaled traffic analysis bots using Celery to simulate and monitor user behavior patterns. Also developed custom reporting dashboards leveraging Grafana and InfluxDB to provide real-time insights into traffic performance and campaign effectiveness.
 
 <small>
 [Python :fontawesome-brands-python:](https://www.python.org/ "Python")

@@ -1,10 +1,8 @@
 ### [SlickMining](https://slickmining.dev/) <small>Apr 2024 - Present</small>
 
-SlickMining comissions development of custom tools to manage bitcoin mining operations and open source them.
+Worked with SlickMining on the development of custom tools to support and streamline Bitcoin mining operations, with an emphasis on open-source contributions. The goal was to create reliable, reusable components to interface with various mining firmware platforms.
 
-#### Responsibilities
-
-Development of python libraries to connect to AntMiner, [LuxOS](https://docs.luxor.tech/firmware/introduction-to-firmware) and [Braiins OS](https://braiins.com/os-firmware) firmware.
+Developed Python libraries to integrate with AntMiner devices and interact with mining firmware such as LuxOS and Braiins OS. These tools enabled more efficient monitoring, control, and automation of mining hardware.
 
 <small>
 [Python :fontawesome-brands-python:](https://www.python.org/ "Python")

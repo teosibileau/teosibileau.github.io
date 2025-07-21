@@ -1,10 +1,6 @@
 ### [Sonder](https://sonder.com/) <small>Aug 2023 - Feb 2024</small>
 
-Contractor work through [Ryz Labs](https://ryzlabs.com/) at Sonder, a hospitality company that offers spaces for short term stays, manages over 9,000 units in over 40 cities in 10 countries and has served over 1 million guests.
-
-#### Responsibilities
-
-Backend development on the company's pricing and availability (aka revenue management) systems.
+Contributed to backend development for Sonder.com’s revenue management systems, focusing on pricing and availability. Migrated availability window logic and consolidated state handling for collections of units to enable more flexible inventory control. Updated the dynamic pricing engine to incorporate the new availability model, improving the accuracy and responsiveness of rate adjustments.
 
 <small>
 [Python :fontawesome-brands-python:](https://www.python.org/ "Python")
