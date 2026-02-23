@@ -1,8 +1,8 @@
 ### [DKS-ARG](https://dks-arg.com/) <small>Feb 2017 - Dec 2017</small> 
 
-Worked as a contractor for DKS, an Argentina-based company providing digital marketing solutions across the LATAM market. My role focused on both development and operations, supporting key systems that powered their ad tracking and subscription infrastructure.
-
-Built and maintained a high-traffic click tracking service and a subscription management platform using Django. Implemented dynamically scaled traffic analysis bots using Celery to simulate and monitor user behavior patterns. Also developed custom reporting dashboards leveraging Grafana and InfluxDB to provide real-time insights into traffic performance and campaign effectiveness.
++ Built a click tracking and fraud detection service handling ~10 million clicks/day using Nginx/OpenResty/Django, blacklisting ~10% of traffic as fraudulent and redirecting ~25% of non-mobile traffic from mobile-only campaigns based on content.
++ Implemented Celery-based traffic analysis bots to detect suspicious behavior patterns and verify destination availability.
++ Developed Grafana/InfluxDB dashboards providing real-time traffic performance and campaign insights for internal and external use.
 
 <small>
 [Python :fontawesome-brands-python:](https://www.python.org/ "Python")
@@ -10,5 +10,8 @@ Built and maintained a high-traffic click tracking service and a subscription ma
 [Celery :borrowed-celery:](https://docs.celeryproject.org/ "Celery")
 [Redis :borrowed-redis:](https://redis.io/ "Redis")
 [PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
-[Heroku :borrowed-heroku:](https://www.postgresql.org/ "Heroku")
+[Heroku :borrowed-heroku:](https://www.heroku.com/ "Heroku")
+[Nginx :borrowed-nginx:](https://nginx.org/ "Nginx")
+[InfluxDB :borrowed-influxdb:](https://www.influxdata.com/ "InfluxDB")
+[Grafana :borrowed-grafana:](https://grafana.com/ "Grafana")
 </small>

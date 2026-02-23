@@ -1,6 +1,9 @@
-### [INE](https://ine.com/) <small>Jun 2024 - Present</small>
+### [INE](https://ine.com/) <small>Jun 2024 - Jan 2025</small>
 
-Designed and implemented backend systems for INE’s content management and delivery platform. Developed a real-time WebSocket solution using Django Channels and Redis to capture and persist video playback activity. The solution enables granular tracking of watched video segments, ensuring accurate user progress and content engagement metrics.
++ Developed a real-time solution to capture video playback activity at 5-second granularity with 99.99% reliability, handling 3,000 concurrent users (~600 events/second) at peak with capacity to spare.
++ Built redundant dual-path capture via Django Channels + Redis and Amazon Kinesis + Elasticsearch in parallel. Tracked completion using PostgreSQL array fields for segment data, periodically consolidating from Elasticsearch, enabling automated user's course completion reporting.
++ Implemented infrastructure as code using Helm charts for Kubernetes, standardizing deployment and configuration of the playback tracking system.
++ Built observability and alerting for the playback tracking system using New Relic custom events and dashboards, aggregating cluster data to monitor event throughput, capture reliability, and system health.
 
 <small>
 [Python :fontawesome-brands-python:](https://www.python.org/ "Python")
@@ -12,5 +15,8 @@ Designed and implemented backend systems for INE’s content management and deli
 [Docker :borrowed-docker:](https://www.docker.com/ "Docker")
 [Kubernetes :borrowed-kubernetes:](https://kubernetes.io/ "Kubernetes")
 [Helm :borrowed-helm:](https://helm.sh/ "Helm")
-[AWS :fontawesome-brands-amazon:](https://aws.amazon.com/ "AWS")
+[Amazon SQS :fontawesome-brands-amazon:](https://aws.amazon.com/sqs/ "Amazon SQS")
+[Amazon SNS :fontawesome-brands-amazon:](https://aws.amazon.com/sns/ "Amazon SNS")
+[Amazon Kinesis :fontawesome-brands-amazon:](https://aws.amazon.com/kinesis/ "Amazon Kinesis")
+[New Relic :borrowed-newrelic:](https://newrelic.com/ "New Relic")
 </small>

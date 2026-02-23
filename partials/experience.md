@@ -1,8 +1,8 @@
 ## Experience
 
-{% include 'experience/ine.md' %}
+{% include 'experience/ine_2.md' %}
 
-{% include 'experience/slickmining.md' %}
+{% include 'experience/ine.md' %}
 
 {% include 'experience/sonder.md' %}
 
