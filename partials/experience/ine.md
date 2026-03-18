@@ -1,9 +1,9 @@
 ### [INE](https://ine.com/) <small>Jun 2024 - Jan 2025</small>
 
-+ Developed a real-time solution to capture video playback activity at 5-second granularity with 99.99% reliability, handling 3,000 concurrent users (~600 events/second) at peak with capacity to spare.
-+ Built redundant dual-path capture via Django Channels + Redis and Amazon Kinesis + Elasticsearch in parallel. Tracked completion using PostgreSQL array fields for segment data, periodically consolidating from Elasticsearch, enabling automated user's course completion reporting.
-+ Implemented infrastructure as code using Helm charts for Kubernetes, standardizing deployment and configuration of the playback tracking system.
-+ Built observability and alerting for the playback tracking system using New Relic custom events and dashboards, aggregating cluster data to monitor event throughput, capture reliability, and system health.
++ Developed a real-time solution to capture video playback activity at 5-second granularity with 99.99% reliability. It ended up handling 3,000 concurrent users (~600 events/second) at peak with capacity to spare.
++ Built redundant dual-path capture via Django Channels and Amazon Kinesis + Elasticsearch in parallel. Tracked completion using PostgreSQL array fields for segment data, periodically consolidating from Elasticsearch, enabling automated user course completion reporting.
++ Expanded the existing infrastructure as code using Helm charts for Kubernetes to deploy the new playback tracking system.
++ Built observability and alerting for the playback tracking system using New Relic custom events and dashboards, aggregating cluster data to monitor event throughput and system health.
 
 <small>
 [Python :fontawesome-brands-python:](https://www.python.org/ "Python")

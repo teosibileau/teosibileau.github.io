@@ -12,6 +12,7 @@
 [Celery :borrowed-celery:](https://docs.celeryproject.org/ "Celery")
 [Redis :borrowed-redis:](https://redis.io/ "Redis")
 [PostgreSQL :borrowed-postgresql:](https://www.postgresql.org/ "Postgresql")
+[PostGIS :borrowed-postgresql:](https://postgis.net/ "PostGIS")
 [RabbitMQ :borrowed-rabbitmq:](https://www.rabbitmq.com/ "Rabbitmq")
 [ElasticSearch :borrowed-elastic:](https://www.elastic.co/ "ElasticSearch")
 [Docker :borrowed-docker:](https://www.docker.com/ "Docker")

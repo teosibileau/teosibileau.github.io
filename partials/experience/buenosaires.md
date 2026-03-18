@@ -17,4 +17,5 @@
 [MongoDB :borrowed-mongodb:](https://www.mongodb.com/ "MongoDB")
 [Apache Solr :borrowed-apachesolr:](https://solr.apache.org/ "Apache Solr")
 [Ansible :borrowed-ansible:](https://www.ansible.com/ "Ansible")
+[PostGIS :borrowed-postgresql:](https://postgis.net/ "PostGIS")
 </small>
