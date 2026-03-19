@@ -1,0 +1,32 @@
+
+{{ if .IsHome }}
+{{ if .Site.Params.homeTitle }}
+  {{ $.Scratch.Set "title" .Site.Params.homeTitle }}
+{{ else }}
+  {{ $.Scratch.Set "title" .Site.Title }}
+{{ end }}
+{{ else }}
+{{ $.Scratch.Set "title" .Title }}
+{{ end }}
+
+{{ $title := $.Scratch.Get "title" }}
+{{ if $title }}
+<header>
+  <div class="intro-header">
+    <div class="container">
+      <div class="{{ .Type }}-heading">
+        <h1>{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
+        {{ if .IsHome }}
+          {{ with .Site.Params.Author.abstract }}
+            <div class="abstract">
+              <p>{{ . | safeHTML }}{{ with $.Site.Params.Author.linkedin }} | <a href="{{ . }}">LinkedIn</a>{{ end }}{{ with $.Site.Params.Author.github }} | <a href="{{ . }}">GitHub</a>{{ end }}</p>
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</header>
+{{ else }}
+<div class="intro-header"></div>
+{{ end }}
