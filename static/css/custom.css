@@ -1,0 +1,33 @@
+.skills {
+  font-size: small;
+}
+.skills a {
+  padding-right: 8px;
+}
+
+/* Code projects list */
+.code-projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.code-projects li {
+  margin-bottom: 0.5em;
+}
+
+/* Figure styling */
+figure {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 0.5em;
+}
